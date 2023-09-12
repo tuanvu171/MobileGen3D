@@ -77,7 +77,7 @@ pip install -r requirements.txt
 
 ```
 
-## NGP_PL as teacher
+## NGP_PL
 ```
 cd model/teacher/ngp_pl
 
