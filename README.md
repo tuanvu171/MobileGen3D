@@ -265,5 +265,5 @@ For building this code, we would refer to the following wonderful implementation
 
 # Reference
 
-If our work or code helps you, please consider to cite our paper. Thank you!
+If you find that our work and code help you, please consider to cite our paper. Thank you!!
 ```
