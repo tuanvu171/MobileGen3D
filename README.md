@@ -8,17 +8,17 @@
 </div>
 
 <div align="center">
-<img src="assets/park-original.gif" width="240" height="240" />
-<img src="assets/autumn.gif" width="240" height="240" />
-<img src="assets/winter.gif" width="240" height="240" />
-<img src="assets/virtual.gif" width="240" height="240" />
+<img src="assets/park-original.gif" width="200" height="200" />
+<img src="assets/autumn.gif" width="200" height="200" />
+<img src="assets/winter.gif" width="200" height="200" />
+<img src="assets/virtual.gif" width="200" height="200" />
 </div>
 
 <div align="center">
-<img src="assets/nhi-original.gif" width="240" height="240" />
-<img src="assets/taylor.gif" width="240" height="240" />
-<img src="assets/vangogh.gif" width="240" height="240" />
-<img src="assets/joker.gif" width="240" height="240" />
+<img src="assets/nhi-original.gif" width="200" height="200" />
+<img src="assets/taylor.gif" width="200" height="200" />
+<img src="assets/vangogh.gif" width="200" height="200" />
+<img src="assets/joker.gif" width="200" height="200" />
 </div>
 
 # Overview
