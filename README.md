@@ -26,6 +26,12 @@ This repo includes the code for the implementation of MobileGen3D. At least one 
 
 Depending on the size of the training images, the training time may vary. For 800x800 images, training the initial NeRF model should take less than 1 hour with 1 GPU. It takes another 2-3 hours to train Instruct-NeRF2NeRF, and from 1-2 days for the final NeLR model.
 
+The workflow of MobileGen3D is as follows:
+
+<div align="center">
+    <img src="assets/system-architecture.jpg" width="512" height="512" />
+</div>
+
 # Installation
 
 ## MobileGen3D Installation
