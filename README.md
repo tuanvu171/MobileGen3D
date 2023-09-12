@@ -29,7 +29,7 @@ Depending on the size of the training images, the training time may vary. For 80
 The workflow of MobileGen3D is as follows:
 
 <div align="center">
-    <img src="assets/system-architecture.jpg" width="512" height="512" />
+    <img src="assets/system-architecture.jpg" />
 </div>
 
 # Installation
