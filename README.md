@@ -194,8 +194,14 @@ cd ../../../
 ## Train the final MobileGen3D's NeLF model and export to onnx files
 
 ```
+# train the model
 sh script/run-train.sh woman-512
+
+# export onnx files
+sh script/export-onnx.sh woman-512
 ```
+
+With the onnx files, you can import the 3D model into your own mobile applications or websites.
 
 # Train your own scene
 You can also use your own scene/content to generate 3D customizable model. Firstly, capture images or a video of the scene from different viewing directions. However, it worth noting that the way you capture images impacts enourmously to the rendering results! Therefore, we recommend new users to start with a video (~30 seconds) for the ease of usage. The video should capture different views, but you should try to avoid capturing some views too densely and some others too sparse.
