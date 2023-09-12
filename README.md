@@ -22,10 +22,11 @@
 </div>
 
 # Overview
+This repo includes the code for the implementation of MobileGen3D. At least one NVIDIA GPU is required for the deployment.
 
+Depending on the size of the training images, the training time may vary. For 800x800 images, training the initial NeRF model should take less than 1 hour with 1 GPU. It takes another 2-3 hours to train Instruct-NeRF2NeRF, and from 1-2 days for the final NeLR model.
 
 # Installation
-
 
 ## MobileGen3D Installation
 ```
@@ -212,6 +213,10 @@ conda activate nerfstudio
 ns-process-data images --data real-world-scenes/original/{scene-name} --output-dir ./real-world-scenes/processed-colmap/{scene-name}
 ```
 
+# Tips and Recommendations
+- The Instruct-NeRF2NeRF model works better with a resolution less than or equal 512x512. For larger resolution, the customization results may not as desire and can lead to low-quality 3D model.
+- If you stuggle with tinycudann installization, considering adjusting the torch and cuda version. Make sure that cuda and g++ are compatible with each other.
+- The recommended number of real-world images should be around 60 to 100 images. Using too many images can lead to a higher training time and maybe lower customization effect.
 
 # Acknowledgement
 
