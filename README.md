@@ -3,20 +3,20 @@
 > **[Text-Guided Real-World-to-3D Generation with Real-Time Rendering on Mobile Devices](https://github.com/tuanvu171/MobileGen3D)** \
 
 <div align="center">
-<img src="assets/nhi-512.gif" width="512" height="512" />
-<img src="assets/nhi-512-vangogh.gif" width="512" height="512" />
+<img src="assets/nhi-512.gif" width="320" height="320" />
+<img src="assets/nhi-512-vangogh.gif" width="320" height="320" />
 </div>
 
 <div align="center">
-<img src="assets/autumn.gif" width="320" height="320" />
-<img src="assets/winter.gif" width="320" height="320" />
-<img src="assets/virtual.gif" width="320" height="320" />
+<img src="assets/autumn.gif" width="240" height="240" />
+<img src="assets/winter.gif" width="240" height="240" />
+<img src="assets/virtual.gif" width="240" height="240" />
 </div>
 
 <div align="center">
-<img src="assets/taylor.gif" width="320" height="320" />
-<img src="assets/vangogh.gif" width="320" height="320" />
-<img src="assets/virtual.gif" width="320" height="320" />
+<img src="assets/taylor.gif" width="240" height="240" />
+<img src="assets/vangogh.gif" width="240" height="240" />
+<img src="assets/joker.gif" width="240" height="240" />
 </div>
 
 # Overview
