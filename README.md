@@ -1,19 +1,54 @@
 # MobileGen3D: Text-Guided Real-World-to-3D Generation with Real-Time Rendering on Mobile Devices
 
 > **[Text-Guided Real-World-to-3D Generation with Real-Time Rendering on Mobile Devices](https://github.com/tuanvu171/MobileGen3D)** \
+
 <div align="center">
-| <img src="assets/nhi-512.gif" width="320" height="320" /> | <img src="assets/nhi-512-vangogh.gif" width="320" height="320" /> |
-| :--------------------------------------------------------: | :------------------------------------------------------------: |
-|                  Original Content                           |                   "Turn her to Van Gogh"                       |
-
-| <img src="assets/park-original.gif" width="200" height="200" /> | <img src="assets/autumn.gif" width="200" height="200" /> | <img src="assets/winter.gif" width="200" height="200" /> | <img src="assets/virtual.gif" width="200" height="200" /> |
-| :-------------------------------------------------------------: | :-------------------------------------------------------: | :------------------------------------------------------: | :--------------------------------------------------------: |
-|                      Original Content                           |               "As Canada Autumn"                         |                  "Covering by snow"                        |                "Turn the car to digital world"                |
-
-| <img src="assets/nhi-original.gif" width="200" height="200" /> | <img src="assets/taylor.gif" width="200" height="200" /> | <img src="assets/vangogh.gif" width="200" height="200" /> | <img src="assets/joker.gif" width="200" height="200" /> |
-| :-------------------------------------------------------------: | :---------------------------------------------------: | :----------------------------------------------------: | :--------------------------------------------------: |
-|                  Original Content                             |           "A painting of Taylor Swift"                   |           "A man in Van Gogh style"                    |           "As Joker with red hair"                   |
+  <table>
+    <tr>
+      <td><img src="assets/nhi-512.gif" width="320" height="320" /></td>
+      <td><img src="assets/nhi-512-vangogh.gif" width="320" height="320" /></td>
+    </tr>
+    <tr>
+      <td>Original Content</td>
+      <td>"Turn her to Van Gogh"</td>
+    </tr>
+  </table>
 </div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/park-original.gif" width="200" height="200" /></td>
+      <td><img src="assets/autumn.gif" width="200" height="200" /></td>
+      <td><img src="assets/winter.gif" width="200" height="200" /></td>
+      <td><img src="assets/virtual.gif" width="200" height="200" /></td>
+    </tr>
+    <tr>
+      <td>Original Content</td>
+      <td>"As Canada Autumn"</td>
+      <td>"Covering by snow"</td>
+      <td>"Turn the car to digital world"</td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/nhi-original.gif" width="200" height="200" /></td>
+      <td><img src="assets/taylor.gif" width="200" height="200" /></td>
+      <td><img src="assets/vangogh.gif" width="200" height="200" /></td>
+      <td><img src="assets/joker.gif" width="200" height="200" /></td>
+    </tr>
+    <tr>
+      <td>Original Content</td>
+      <td>"A painting of Taylor Swift"</td>
+      <td>"A man in Van Gogh style"</td>
+      <td>"As Joker with red hair"</td>
+    </tr>
+  </table>
+</div>
+
 
 
 # Overview
