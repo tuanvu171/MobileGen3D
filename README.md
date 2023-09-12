@@ -4,21 +4,31 @@
 
 <div align="center">
 <img src="assets/nhi-512.gif" width="320" height="320" />
+    <p>Original Content</p>
 <img src="assets/nhi-512-vangogh.gif" width="320" height="320" />
+    <p>"Turn her to Van Gogh"</p>
 </div>
 
 <div align="center">
 <img src="assets/park-original.gif" width="200" height="200" />
+    <p>Original Content</p>
 <img src="assets/autumn.gif" width="200" height="200" />
+    <p>"As Canada Autumn"</p>
 <img src="assets/winter.gif" width="200" height="200" />
+    <p>"Covering by snow"</p>
 <img src="assets/virtual.gif" width="200" height="200" />
+    <p>"Turn the car to digital world"</p>
 </div>
 
 <div align="center">
 <img src="assets/nhi-original.gif" width="200" height="200" />
+    <p>Original Content</p>
 <img src="assets/taylor.gif" width="200" height="200" />
+    <p>"A painting of Taylor Swift"</p>
 <img src="assets/vangogh.gif" width="200" height="200" />
+    <p>"A man in Van Gogh style"</p>
 <img src="assets/joker.gif" width="200" height="200" />
+    <p>"As Joker with red hair"</p>
 </div>
 
 # Overview
