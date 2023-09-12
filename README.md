@@ -1,7 +1,7 @@
 # MobileGen3D: Text-Guided Real-World-to-3D Generation with Real-Time Rendering on Mobile Devices
 
 > **[Text-Guided Real-World-to-3D Generation with Real-Time Rendering on Mobile Devices](https://github.com/tuanvu171/MobileGen3D)** \
-
+<div align="center">
 | <img src="assets/nhi-512.gif" width="320" height="320" /> | <img src="assets/nhi-512-vangogh.gif" width="320" height="320" /> |
 | :--------------------------------------------------------: | :------------------------------------------------------------: |
 |                  Original Content                           |                   "Turn her to Van Gogh"                       |
@@ -13,7 +13,7 @@
 | <img src="assets/nhi-original.gif" width="200" height="200" /> | <img src="assets/taylor.gif" width="200" height="200" /> | <img src="assets/vangogh.gif" width="200" height="200" /> | <img src="assets/joker.gif" width="200" height="200" /> |
 | :-------------------------------------------------------------: | :---------------------------------------------------: | :----------------------------------------------------: | :--------------------------------------------------: |
 |                  Original Content                             |           "A painting of Taylor Swift"                   |           "A man in Van Gogh style"                    |           "As Joker with red hair"                   |
-
+</div>
 
 
 # Overview
