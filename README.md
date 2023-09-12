@@ -135,7 +135,7 @@ pip install nerfstudio
 # Implementation
 
 ## Using Colmap to process images/videos
-We provided an example of a real-world scene/content. To extract camera poses and other intrinsic camera parameters, we must run Colmap:
+We provided an example of a real-world scene/content at "real-world-scenes/original/woman-512". To extract camera poses and other intrinsic camera parameters, we must run Colmap:
 
 ```
 conda activate nerfstudio
