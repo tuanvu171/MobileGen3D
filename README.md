@@ -5,12 +5,12 @@
 <div align="center">
   <table>
     <tr>
-      <td><img src="assets/nhi-512.gif" width="320" height="320" /></td>
-      <td><img src="assets/nhi-512-vangogh.gif" width="320" height="320" /></td>
+      <td align="center"><img src="assets/nhi-512.gif" width="320" height="320" /></td>
+      <td align="center"><img src="assets/nhi-512-vangogh.gif" width="320" height="320" /></td>
     </tr>
     <tr>
-      <td>Original Content</td>
-      <td>"Turn her to Van Gogh"</td>
+      <td align="center">Original Content</td>
+      <td align="center">"Turn her to Van Gogh"</td>
     </tr>
   </table>
 </div>
@@ -18,16 +18,16 @@
 <div align="center">
   <table>
     <tr>
-      <td><img src="assets/park-original.gif" width="200" height="200" /></td>
-      <td><img src="assets/autumn.gif" width="200" height="200" /></td>
-      <td><img src="assets/winter.gif" width="200" height="200" /></td>
-      <td><img src="assets/virtual.gif" width="200" height="200" /></td>
+      <td align="center"><img src="assets/park-original.gif" width="200" height="200" /></td>
+      <td align="center"><img src="assets/autumn.gif" width="200" height="200" /></td>
+      <td align="center"><img src="assets/winter.gif" width="200" height="200" /></td>
+      <td align="center"><img src="assets/virtual.gif" width="200" height="200" /></td>
     </tr>
     <tr>
-      <td>Original Content</td>
-      <td>"As Canada Autumn"</td>
-      <td>"Covering by snow"</td>
-      <td>"Turn the car to digital world"</td>
+      <td align="center">Original Content</td>
+      <td align="center">"As Canada Autumn"</td>
+      <td align="center">"Covering by snow"</td>
+      <td align="center">"Turn the car to digital world"</td>
     </tr>
   </table>
 </div>
@@ -35,20 +35,19 @@
 <div align="center">
   <table>
     <tr>
-      <td><img src="assets/nhi-original.gif" width="200" height="200" /></td>
-      <td><img src="assets/taylor.gif" width="200" height="200" /></td>
-      <td><img src="assets/vangogh.gif" width="200" height="200" /></td>
-      <td><img src="assets/joker.gif" width="200" height="200" /></td>
+      <td align="center"><img src="assets/nhi-original.gif" width="200" height="200" /></td>
+      <td align="center"><img src="assets/taylor.gif" width="200" height="200" /></td>
+      <td align="center"><img src="assets/vangogh.gif" width="200" height="200" /></td>
+      <td align="center"><img src="assets/joker.gif" width="200" height="200" /></td>
     </tr>
     <tr>
-      <td>Original Content</td>
-      <td>"A painting of Taylor Swift"</td>
-      <td>"A man in Van Gogh style"</td>
-      <td>"As Joker with red hair"</td>
+      <td align="center">Original Content</td>
+      <td align="center">"A painting of Taylor Swift"</td>
+      <td align="center">"A man in Van Gogh style"</td>
+      <td align="center">"As Joker with red hair"</td>
     </tr>
   </table>
 </div>
-
 
 
 # Overview
