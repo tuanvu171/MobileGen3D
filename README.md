@@ -18,10 +18,10 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="assets/park-original.gif" width="200" height="200" /></td>
-      <td align="center"><img src="assets/autumn.gif" width="200" height="200" /></td>
-      <td align="center"><img src="assets/winter.gif" width="200" height="200" /></td>
-      <td align="center"><img src="assets/virtual.gif" width="200" height="200" /></td>
+      <td align="center"><img src="assets/park-original.gif" width="180" height="180" /></td>
+      <td align="center"><img src="assets/autumn.gif" width="180" height="180" /></td>
+      <td align="center"><img src="assets/winter.gif" width="180" height="180" /></td>
+      <td align="center"><img src="assets/virtual.gif" width="180" height="180" /></td>
     </tr>
     <tr>
       <td align="center">Original Content</td>
@@ -35,10 +35,10 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="assets/nhi-original.gif" width="200" height="200" /></td>
-      <td align="center"><img src="assets/taylor.gif" width="200" height="200" /></td>
-      <td align="center"><img src="assets/vangogh.gif" width="200" height="200" /></td>
-      <td align="center"><img src="assets/joker.gif" width="200" height="200" /></td>
+      <td align="center"><img src="assets/nhi-original.gif" width="180" height="180" /></td>
+      <td align="center"><img src="assets/taylor.gif" width="180" height="180" /></td>
+      <td align="center"><img src="assets/vangogh.gif" width="180" height="180" /></td>
+      <td align="center"><img src="assets/joker.gif" width="180" height="180" /></td>
     </tr>
     <tr>
       <td align="center">Original Content</td>
