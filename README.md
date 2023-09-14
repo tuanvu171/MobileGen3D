@@ -61,7 +61,9 @@ The workflow of MobileGen3D is as follows:
     <img src="assets/system-architecture.jpg" />
 </div>
 
+
 And this is the network architecture regarding real-time on-device rendering:
+
 <div align="center">
     <img src="assets/network-architecture.jpg" />
 </div>
