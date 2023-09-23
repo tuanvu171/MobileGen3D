@@ -85,6 +85,7 @@ pip install -r requirements.txt
 ```
 
 ## NGP_PL
+Before installing ngp_pl, you must switch your cuda version to 11.6 to make it compatible with torch.
 ```
 cd model/teacher/ngp_pl
 
@@ -120,6 +121,7 @@ cd ../../../
 ```
 
 ## NeRFstudio
+Before installing, make sure that you have switched cuda to 11.8 with g++ 11.3.
 ```
 conda create --name nerfstudio -y python=3.8
 conda activate nerfstudio
