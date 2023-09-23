@@ -160,7 +160,8 @@ cd in2n
 # train the first NeRF model
 ns-train nerfacto --data ../real-world-scenes/processed-colmap/woman-512
 
-# train in2n with a text prompt. You MUST replace the {date} in the load-dir with the actual date indicated in your chosen nerfacto model's folder
+# train in2n with a text prompt.
+# You MUST replace the {date} in the load-dir with the actual date indicated in your chosen nerfacto model's folder
 ns-train in2n --data ../real-world-scenes/processed-colmap/woman-512 --load-dir outputs/woman-512/nerfacto/{date}/nerfstudio_models --pipeline.prompt "Make her look like Van Gogh" --pipeline.guidance-scale 7.5 --pipeline.image-guidance-scale 1.5
 ```
 Optionally, we can modify the text prompt based on our desired effects. We can also change the guidance-scale of the provided text prompt to adjust the level of impact that the prompt has on the results. Similarly, image-guidance-scale can also be adjusted.
