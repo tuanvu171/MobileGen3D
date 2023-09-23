@@ -8,7 +8,7 @@ dill==0.3.4
 ipdb==0.13.9
 numpy==1.22
 ptflops==0.6.6
-imageio==2.9.0
+imageio
 opencv_python==4.5.3.56
 pandas==1.3.0
 matplotlib==3.4.2
@@ -22,7 +22,7 @@ scikit_learn==0.24.2
 uutils==0.0.3
 lpips
 kornia
-einpos
+einops
 jaxtyping
 pretty_traceback
 easydict
