@@ -1,4 +1,4 @@
-from llff.poses.pose_utils import gen_poses
+from poses.pose_utils import gen_poses
 import sys
 
 import argparse
