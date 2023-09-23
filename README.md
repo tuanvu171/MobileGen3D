@@ -80,7 +80,7 @@ conda create -n MobileGen3D python==3.9
 conda activate MobileGen3D
 
 pip install torch torchvision torchaudio
-pip install -r requirement.txt 
+pip install -r requirements.txt 
 
 ```
 
