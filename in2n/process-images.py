@@ -1,11 +1,11 @@
 from PIL import Image
 import os
 
-scene_name = "woman-512"
+scene_name = "woman-512" # modify if necessary
 image_size = 512
 
 # Define source and destination directories
-source_directory = "./renders/" + scene_name
+source_directory = "./renders/"+scene_name+"/images"
 destination_directory = "../dataset/nerf_data/"+scene_name+"/images"
 
 # Create the destination directory if it doesn't exist
