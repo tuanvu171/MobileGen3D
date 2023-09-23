@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export ROOT_DIR=../../../dataset/nerf_llff_data
+export ROOT_DIR=../../../dataset/nerf_data
 scene=$1
 
 python3 train.py \
