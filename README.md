@@ -206,6 +206,8 @@ sh script/run-train.sh woman-512
 sh script/distill.sh woman-512
 ```
 
+If imgs2poses.py returns "ERROR: the correct camera poses for current points cannot be accessed", it's likely that Colmap cannot infer poses from your generated images. You should try another instruct-nerf2nerf model with different text prompt or guidance scale. The final results should be consistent so that Colmap can process them.
+
 (OPTIONAL) We can also config the training/distilling process by modifying the two files run-train.sh and distill.sh, or directly execute:
 ```
 # train the model
