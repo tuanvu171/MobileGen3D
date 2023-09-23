@@ -12,3 +12,4 @@ pymcubes
 trimesh
 dearpyguipip 
 torchmetrics==0.11.4
+scikit-image
