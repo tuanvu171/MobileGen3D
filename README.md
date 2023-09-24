@@ -272,6 +272,7 @@ ns-process-data images --data real-world-scenes/original/{scene-name} --output-d
 - The Instruct-NeRF2NeRF model works better with a resolution less than or equal 512x512. For larger resolution, the customization results may not as desire and can lead to low-quality 3D model.
 - If you stuggle with tinycudann installization, considering adjusting the torch and cuda version. Make sure that cuda and g++ are compatible with each other. For example, cuda 11.8 should go with g++ 11.3, while cuda 11.6 could go with g++ 9.3. You can also use spack to switch g++ versions: https://jchuynh.medium.com/how-to-solve-cuda-incompatibility-with-high-versions-of-gcc-f47ef966bb15
 - The recommended number of real-world images should be around 60 to 100 images. Using too many images can lead to a higher training time and maybe lower customization effect.
+- If you use videos to run Colmap and the number of frames is too high (i.e., the videos are too long), you can first run the provided file "reduce-poses.py" to reduce the fps of the videos before using Colmap.
 
 # Acknowledgement
 
