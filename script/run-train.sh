@@ -5,7 +5,7 @@ python3 -m torch.distributed.launch --nproc_per_node=$nGPU --use_env  main.py \
     --project_name $scene \
     --dataset_type Colmap \
     --pseudo_dir model/teacher/ngp_pl/Pseudo/$scene \
-    --root_dir dataset \
+    --root_dir dataset/nerf_data \
     --run_train \
     --num_workers 12 \
     --batch_size 10 \
