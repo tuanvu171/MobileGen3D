@@ -238,10 +238,10 @@ cd ../../../
 
 ```
 # train the model
-sh script/run-train.sh woman-512
+sh script/run-train.sh 1 woman-512
 
 # export onnx files
-sh script/export-onnx.sh woman-512
+sh script/export-onnx.sh 1 woman-512
 ```
 
 With the onnx files, you can import the 3D model into your own mobile applications or websites.
