@@ -15,8 +15,6 @@ python3 -m torch.distributed.launch --nproc_per_node=$nGPU --use_env  main.py \
     --output_height 512 \
     --output_width 512 \
     --scene $scene \
-    --ff \
-    --ndc \
     --amp \
     --i_testset 1000 \
     --lrate 0.0005
