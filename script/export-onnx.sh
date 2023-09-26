@@ -12,7 +12,5 @@ python3 -m torch.distributed.launch --nproc_per_node=1 --use_env  main.py \
     --output_height 512 \
     --output_width 512 \
     --scene $scene \
-    --ff \
-    --ndc \
     --amp \
     --ckpt_dir $ckpt
