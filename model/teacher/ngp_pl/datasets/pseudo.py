@@ -49,11 +49,10 @@ class PseudoDataset(Dataset):
         self.direction = get_ray_directions(self.H, self.W, self.K)
         self.sr_direction = get_ray_directions(self.od_H, self.od_W, self.K_downscaled)
 
-        # self.poses_train_interpolated = interpolate_poses(poses_train, n_pseudo_data, 4)
-        n_upsample = 10
-        for i in range(n_upsample):
-            poses_train = upsample_poses(poses_train, k=5)
-
+        # # self.poses_train_interpolated = interpolate_poses(poses_train, n_pseudo_data, 4)
+        # n_upsample = 10
+        # for i in range(n_upsample):
+        #     poses_train = upsample_poses(poses_train, k=5)
         self.poses_train = interpolate_poses(poses_train, n_pseudo_data, k=4)
 
         
@@ -76,88 +75,54 @@ class PseudoDataset(Dataset):
         rays_o, rays_d = get_rays(self.direction, c2w.clone())
         return {'rays_o': rays_o,
                 'rays_d': rays_d,
-                'pose': c2w[:3, 3] if not self.ff else c2w[:3, :4]
+                'pose': c2w
+                # 'pose': c2w[:3, 3] if not self.ff else c2w[:3, :4]
                 }
     
-# def interpolate_poses(poses_train, M):
-#     """
-#     Interpolate poses in 'poses_train' to generate 'poses_train_interpolated' with 'M' poses.
-
-#     Args:
-#     poses_train (numpy.ndarray): An array of size (N, 3, 4) containing N poses in OpenGL convention.
-#     M (int): The desired number of interpolated poses.
-
-#     Returns:
-#     numpy.ndarray: An array of size (M, 3, 4) containing interpolated poses.
-#     """
-#     N = poses_train.shape[0]
-#     interpolation_steps = (M - 1) // (N - 1)
-    
-#     poses_train_interpolated = np.zeros((M, 3, 4), dtype=np.float32)
-    
-#     for i in range(N - 1):
-#         pose_start = poses_train[i]
-#         pose_end = poses_train[i + 1]
-        
-#         for step in range(interpolation_steps + 1):
-#             alpha = step / interpolation_steps
-#             interpolated_pose = pose_start + alpha * (pose_end - pose_start)
-#             poses_train_interpolated[i * interpolation_steps + step] = interpolated_pose
-    
-#     # Copy the last pose from 'poses_train' to 'poses_train_interpolated'
-#     poses_train_interpolated[-1] = poses_train[-1]
-    
-#     return torch.FloatTensor(poses_train_interpolated)
-
-def upsample_poses(poses_train, k):
-    poses_train = poses_train.numpy()
-    N = poses_train.shape[0]
-    coverage_values = np.zeros(N)
-
-    pose_fatenned = poses_train[:, :3, :3].reshape(-1, 3*3)  # Reshape to 2D
-    nn = NearestNeighbors(n_neighbors=k+1).fit(pose_fatenned) # k+1 because one of the neighbors is itself
-    distances, indices = nn.kneighbors(pose_fatenned)
+def compute_coverage(poses, k=4):
+    num_poses = poses.shape[0]
+    poses_flatenned = poses.T.reshape(num_poses, 3*4)
+    nn = NearestNeighbors(n_neighbors=k+1).fit(poses_flatenned)
+    distances, indices = nn.kneighbors(poses_flatenned)
     indices = indices[:, 1:]
     distances = distances[:, 1:]
-    # Compute coverage values
-    for i in range(N):
+
+    coverage_values = np.zeros(num_poses)
+    for i in range(num_poses):
         coverage_values[i] = 1/np.mean(distances[i])
 
-    # normalize to 0-1
     coverage_values = (coverage_values - np.min(coverage_values))/(np.max(coverage_values)-np.min(coverage_values))
+    return coverage_values, distances, indices
 
-    # the lower coverage value, the higher chance for upsampling
-    rand_vect = np.random.rand(N)
-    is_upsample = coverage_values <= rand_vect
+def interpolate_poses(poses_train, n_pseudo_data, k=4):
+    poses = poses_train.numpy()
+    num_poses = poses.shape[0]
+    num_poses_remove = 5
+    num_poses_upsample = num_poses
 
-    for i in range(N):
-        if(is_upsample[i]):
-            neighbor_weights = distances[i]/np.sum(distances[i])
-            stacked_neighbors = np.stack(poses_train[indices[i]], axis=0)
-            upsampled_pose = np.sum(stacked_neighbors * neighbor_weights[:, None, None], axis=0)
-            poses_train = np.concatenate((poses_train, upsampled_pose[np.newaxis, :, :]), axis=0)
+    while num_poses < n_pseudo_data:
+        coverage_values, neighbor_distances, neighbor_indices = compute_coverage(poses, k)
 
-    return torch.FloatTensor(poses_train)
+        # # In the first iteration, remove some least covered poses
+        # if(num_poses==poses_train.numpy().shape[0]):
+        #     poses_remove_indices = np.argsort(coverage_values)[:num_poses_remove]
+        #     mask = np.ones(poses.shape[0], dtype=bool)
+        #     mask[poses_remove_indices] = False
+        #     poses = poses[mask]
+
+        for i in range(num_poses_upsample):
+            # choose one center pose
+            probabilities = np.exp(coverage_values) / np.sum(np.exp(coverage_values))
+            chosen_pose_index = np.random.choice(len(coverage_values), p=probabilities)
+
+            neighbor_weights = neighbor_distances[chosen_pose_index]/np.sum(neighbor_distances[chosen_pose_index])
+            stacked_neighbors = np.stack(poses[neighbor_indices[chosen_pose_index]], axis=0)
+            upsampled_pose_neighbor = np.sum(stacked_neighbors * neighbor_weights[:, None, None], axis=0)
+            center_pose_weight = np.random.uniform(0.7, 1)
+            upsampled_pose = poses[chosen_pose_index]*center_pose_weight + upsampled_pose_neighbor*(1-center_pose_weight)
+            poses = np.concatenate((poses, upsampled_pose[np.newaxis, :, :]), axis=0)
         
-def interpolate_poses(poses_train, M, k=4):
-    poses_train = poses_train.numpy()
-    N = poses_train.shape[0]
-    N_interpolate = -(-M//N) - 1
+        num_poses = poses.shape[0]
 
-    pose_fatenned = poses_train[:, :3, :3].reshape(-1, 3*3)  # Reshape to 2D
-    nn = NearestNeighbors(n_neighbors=k).fit(pose_fatenned) # k+1 because one of the neighbors is itself
-    _, indices = nn.kneighbors(pose_fatenned)
-
-    # Generate "N_interpolate" more poses for each original pose
-    for i in range(N):
-        indice_neighbors = indices[i]
-        weights = np.random.rand(N_interpolate, k)
-        stacked_neighbors = np.stack(poses_train[indice_neighbors], axis=0)
-        for j in range(N_interpolate):
-            # The interpolated pose is the weighted average of "k" neighbor poses
-            weight = weights[j]
-            weight = weight/np.sum(weight)
-            interpolated_pose = np.sum(stacked_neighbors * weight[:, None, None], axis=0)
-            poses_train = np.concatenate((poses_train, interpolated_pose[np.newaxis, :, :]), axis=0)
-    poses_train = poses_train[np.random.permutation(poses_train.shape[0])]
-    return torch.FloatTensor(poses_train)
+    np.random.shuffle(poses)
+    return torch.FloatTensor(poses)
