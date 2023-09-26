@@ -79,11 +79,15 @@ class PseudoDataset(Dataset):
                 c2w[:, -1] *= (self.dataset_info['scale'] * self.dataset_info['sc'])
                 c2w = torch.FloatTensor(c2w)
             else:
-                cam_pos = ( 
-                    (torch.FloatTensor(pose) / self.dataset_info['max_radius'])
-                    .view(1, 3)
-                )
-                c2w = poses_utils.lookAt(cam_pos, self.camera_convention)
+                pose[:, -1] =  pose[:, -1]/self.dataset_info['max_radius']
+                pose[:, 1:3] *= -1 # OpenCV to OpenGL
+                c2w = torch.FloatTensor(pose)
+                # pose = pose[:,-1]
+                # cam_pos = ( 
+                #     (torch.FloatTensor(pose) / self.dataset_info['max_radius'])
+                #     .view(1, 3)
+                # )
+                # c2w = poses_utils.lookAt(cam_pos, self.camera_convention)
         else: 
             # npg_pl scales down the center of blender scenes by (4.031128857175551 / 1.5)
             # We scale it back here. 
@@ -101,8 +105,3 @@ class PseudoDataset(Dataset):
             )
             
             
-            
-            
-            
-            
-
