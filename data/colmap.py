@@ -395,7 +395,7 @@ def load_colmap_data(
                 'ff': True if ff else False,
                 'dataset_type': 'Colmap',
                 'sc': sc if ff else None,
-                'render_poses': render_poses.to(device) if not ff else None
+                'render_poses': to_tensor(render_poses, device) if not ff else None
             }
     # return (to_tensor(imgs), to_tensor(poses), to_tensor(bds),
     #         to_tensor(render_poses), i_test, [H, W, focal], poses)
