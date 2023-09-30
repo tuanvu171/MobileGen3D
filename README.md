@@ -247,7 +247,7 @@ sh script/export-onnx.sh 1 woman-512
 With the onnx files, you can import the 3D model into your own mobile applications or websites.
 
 # On-Device Rendering
-I provided three onnx files as an example for rendering, which includes "ckpt_SnapGELU.onnx", "Sampler.onnx", and "Embedder.onnx". Firstly, you must go [here](https://ar.snap.com/download) to download Lens Studio. Then, download the example lens studio project [here]([https://ar.snap.com/download](https://github.com/Snapchat/snapml-templates/tree/main/Neural%20Rendering/Lens%20Studio%20Projects/360)).
+I provided three onnx files as an example for rendering, which includes "ckpt_SnapGELU.onnx", "Sampler.onnx", and "Embedder.onnx". Firstly, you must go [here](https://ar.snap.com/download) to download Lens Studio. Then, download the example lens studio project [here](https://github.com/Snapchat/snapml-templates/tree/main/Neural%20Rendering/Lens%20Studio%20Projects/360).
 
 - Once finishing the installation, run Lens Studio, click "Open Project" and choose the downloaded example project. In the project, go **File**-->**Import** and select the three example onnx files. For "Sampler.onnx" and "Embedder.onnx", you can simply click "Import". But for "ckpt_SnapGELU.onnx", you must change the three "Scale" of the **output** (not input) Channels to 255:
 <div align="center">
