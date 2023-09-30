@@ -274,6 +274,14 @@ I provided three onnx files as an example for rendering, which includes "ckpt_Sn
 ```
 
 - Ctrl+S to save the script and it will automatically render the scene in the Preview panel:
+<div align="center">
+    <img src="assets/lens-studio.JPG" />
+</div>
+
+- Open SnapChat in your mobile phone and scan it with the model in Lens Studio. Finally, you can render the customized 3D scene on your own mobile device:
+<div align="center">
+    <img src="assets/render-mobile.gif" />
+</div>
 
 # Train your own scene
 You can also use your own scene/content to generate 3D customizable model. Firstly, capture images or a video of the scene from different viewing directions. However, it worth noting that the way you capture images impacts enourmously to the rendering results! Therefore, we recommend new users to start with a video (~30 seconds) for the ease of usage. The video should capture different views, but you should try to avoid capturing some views too densely and some others too sparse.
