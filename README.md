@@ -275,7 +275,7 @@ I provided three onnx files as an example for rendering, which includes "ckpt_Sn
 
 - Ctrl+S to save the script and it will automatically render the scene in the Preview panel:
 <div align="center">
-    <img src="assets/lens-studio.JPG" />
+    <img src="assets/lens-studio.JPG" width="200"/>
 </div>
 
 - Open SnapChat in your mobile phone and scan it with the model in Lens Studio. Finally, you can render the customized 3D scene on your own mobile device:
