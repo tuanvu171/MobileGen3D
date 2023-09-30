@@ -246,6 +246,35 @@ sh script/export-onnx.sh 1 woman-512
 
 With the onnx files, you can import the 3D model into your own mobile applications or websites.
 
+# On-Device Rendering
+I provided three onnx files as an example for rendering, which includes "ckpt_SnapGELU.onnx", "Sampler.onnx", and "Embedder.onnx". Firstly, you must go [here](https://ar.snap.com/download) to download Lens Studio. Then, download the example lens studio project [here]([https://ar.snap.com/download](https://github.com/Snapchat/snapml-templates/tree/main/Neural%20Rendering/Lens%20Studio%20Projects/360)).
+
+- Once finishing the installation, run Lens Studio, click "Open Project" and choose the downloaded example project. In the project, go **File**-->**Import** and select the three example onnx files. For "Sampler.onnx" and "Embedder.onnx", you can simply click "Import". But for "ckpt_SnapGELU.onnx", you must change the three "Scale" of the **output** (not input) Channels to 255:
+<div align="center">
+    <img src="assets/channel-255.jpg" />
+</div>
+
+- There are three "ML Component" in the top-left panel. In the "Inspector" tab, click on the first "ML Component" and change the model to our imported "ckpt_SnapGELU". The second "ML Component" should be our imported "Embedder" and the third is "Sampler":
+<div align="center">
+    <img src="assets/ml-component.jpg" />
+</div>
+
+- Go to **Resources**-->**Script** on the down-left panel and modify the parameters used in our model. It can be found in the directory: ```logs/Experiments/your-experiments-folder/intrinsics.json```. Because you did not train the provided example model, I provided you with the following parameters:
+```
+{
+  "H": 64,
+  "W": 64,
+  "focal": 64.92292785644531,
+  "radius": 0.6790429949760437,
+  "near": -3.261752128601074,
+  "far": 5.6894731521606445,
+  "n_sample": 8,
+  "numtires": 6
+}
+```
+
+- Ctrl+S to save the script and it will automatically render the scene in the Preview panel:
+
 # Train your own scene
 You can also use your own scene/content to generate 3D customizable model. Firstly, capture images or a video of the scene from different viewing directions. However, it worth noting that the way you capture images impacts enourmously to the rendering results! Therefore, we recommend new users to start with a video (~30 seconds) for the ease of usage. The video should capture different views, but you should try to avoid capturing some views too densely and some others too sparse.
 
