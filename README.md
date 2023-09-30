@@ -280,7 +280,7 @@ I provided three onnx files as an example for rendering, which includes "ckpt_Sn
 
 - Open SnapChat in your mobile phone and scan it with the model in Lens Studio. Finally, you can render the customized 3D scene on your own mobile device:
 <div align="center">
-    <img src="assets/render-mobile.gif" />
+    <img src="assets/render-mobile.gif" width="250" />
 </div>
 
 # Train your own scene
