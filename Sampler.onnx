@@ -4110,7 +4110,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -4900,7 +4900,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -4923,7 +4923,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -4947,7 +4947,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -4972,7 +4972,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -4994,7 +4994,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -5017,7 +5017,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -5039,7 +5039,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -5063,7 +5063,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9181,7 +9181,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9203,7 +9203,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9227,7 +9227,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9257,7 +9257,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9279,7 +9279,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9303,7 +9303,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9333,7 +9333,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9355,7 +9355,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9378,7 +9378,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9401,7 +9401,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9423,7 +9423,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
@@ -9447,7 +9447,7 @@
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/torch/onnx/utils.py(506): export
 /home/necphy/VuTruong/WCNC/MobileGen3D/model/engine.py(566): export_onnx
 /home/necphy/VuTruong/WCNC/MobileGen3D/utils.py(211): wrapper
-/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(124): main
+/home/necphy/VuTruong/WCNC/MobileGen3D/main.py(196): main
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(783): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1434): invoke
 /home/necphy/miniconda3/envs/r2l/lib/python3.9/site-packages/click/core.py(1078): main
