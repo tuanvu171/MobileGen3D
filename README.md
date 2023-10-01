@@ -283,7 +283,7 @@ I provided three onnx files as an example for rendering, which includes "ckpt_Sn
     <img src="assets/render-mobile.gif" width="250" />
 </div>
 
-Looks good! This scene has been customized by the prompt "Turn her into Vangogh Style". The scene looks not very sharp because I stopped training very early (as it is just for example). I used my iPhone 11 for this example, which is different from the one used in the paper's experiments.
+Looks good! This scene has been customized by the prompt "Turn her into Vangogh Style". The scene doesn't look really sharp because I stopped training very early (as it is just for example). I used my iPhone 11 for this example, which is different from the one used in the paper's experiments.
 
 # Train your own scene
 You can also use your own scene/content to generate 3D customizable model. Firstly, capture images or a video of the scene from different viewing directions. However, it worth noting that the way you capture images impacts enourmously to the rendering results! Therefore, we recommend new users to start with a video (~30 seconds) for the ease of usage. The video should capture different views, but you should try to avoid capturing some views too densely and some others too sparse.
