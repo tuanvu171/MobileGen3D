@@ -1,7 +1,9 @@
 # MobileGen3D: Text-Guided Real-World-to-3D Generation with Real-Time Rendering on Mobile Devices
 
 > **[Text-Guided Real-World-to-3D Generation with Real-Time Rendering on Mobile Devices](https://github.com/tuanvu171/MobileGen3D)** \
-
+<div align="center">
+    <img src="assets/render-mobile.gif" width="300" />
+</div>
 <div align="center">
   <table>
     <tr>
