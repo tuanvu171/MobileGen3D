@@ -251,7 +251,7 @@ I provided three onnx files as an example for rendering, which includes "ckpt_Sn
 
 - Once finishing the installation, run Lens Studio, click "Open Project" and choose the downloaded example project. In the project, go **File**-->**Import** and select the three example onnx files. For "Sampler.onnx" and "Embedder.onnx", you can simply click "Import". But for "ckpt_SnapGELU.onnx", you must change the three "Scale" of the **output** (not input) Channels to 255:
 <div align="center">
-    <img src="assets/channel-255.JPG" />
+    <img src="assets/channel-255.JPG" width="500" />
 </div>
 
 - There are three "ML Component" in the top-left panel. In the "Inspector" tab, click on the first "ML Component" and change the model to our imported "ckpt_SnapGELU". The second "ML Component" should be our imported "Embedder" and the third is "Sampler":
