@@ -2,13 +2,13 @@
 
 > **[Text-Guided Real-World-to-3D Generation with Real-Time Rendering on Mobile Devices](https://github.com/tuanvu171/MobileGen3D)** \
 <div align="center">
-    <img src="assets/render-mobile.gif" width="300" />
+    <img src="assets/render-mobile.gif" width="250" />
 </div>
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="assets/nhi-512.gif" width="320" height="320" /></td>
-      <td align="center"><img src="assets/nhi-512-vangogh.gif" width="320" height="320" /></td>
+      <td align="center"><img src="assets/nhi-512.gif" width="300" height="300" /></td>
+      <td align="center"><img src="assets/nhi-512-vangogh.gif" width="300" height="300" /></td>
     </tr>
     <tr>
       <td align="center">Original Content</td>
