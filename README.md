@@ -323,3 +323,4 @@ For building this code, we would refer to the following wonderful implementation
 
 If you find that our work and code help you, please consider to cite our paper. Thank you!!
 ```
+Truong, Vu, and Long Bao Le. "Text-Guided Real-World-to-3D Generative Models with Real-Time Rendering on Mobile Devices." Authorea Preprints (2023).
